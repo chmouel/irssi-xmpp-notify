@@ -2,7 +2,7 @@
  XMPP Notfication for IRSSI
 ============================
 
-:Homepage:  http://github.com/chmouel/todo
+:Homepage:  http://blog.chmouel.com/2009/12/20/xmpp-notification-for-irssi-running-in-a-screen-on-a-remote-host/
 :Credits:   Copyright 2009--2010 Chmouel Boudjnah <chmouel@chmouel.com>
 :Licence:   BSD
 
