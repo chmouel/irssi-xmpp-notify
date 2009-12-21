@@ -9,13 +9,13 @@
 Installation
 ============
 
-You need to have python-xmpp installed you can install from source from here
+You need to have python-twisted-words installed you can install from source from here
 
-    http://xmpppy.sf.net/
+    http://twistedmatrix.com/trac/wiki/Downloads
 
 or on Debian or Ubuntu installed directly from the apt repositories :
 
-    aptitude install python-xmpp
+    aptitude install python-twisted-words
 
 Place the file irssi-script/xmpp-notify.pl in your
 ~/.irssi/scripts/autorun/ directory and place the file
