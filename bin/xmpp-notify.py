@@ -132,14 +132,15 @@ def main():
         msg=match.group("message")
         if config['mynickname'] and msg.startswith("%s: " % (config['mynickname'])):
             msg = msg.replace("%s: " % (config['mynickname']), "")
+        msg = "%s: %s" % (match.group('sender'), msg)
     else:
         print "No match on: %s" % line
         sys.exit(0)
 
-    c = SendMessage(config['jid'], config['password'],
-                    config['destination_jid'],
-                    msg,
-                    check_online=False)
+    SendMessage(config['jid'], config['password'],
+                config['destination_jid'],
+                msg,
+                check_online=False)
     reactor.run()
 
 if __name__ == '__main__':
